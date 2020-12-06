@@ -10,7 +10,7 @@ This repo contains the code that is being used [here](https://amolt.me)
 - NextJS
 - Markdown
 - GitHub actions
-- Discord WebHooks
+- Discord WebHook
 
 ---
 
