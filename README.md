@@ -9,6 +9,7 @@ This repo contains the code that is being used [here](https://amolt.me)
 - Now
 - NextJS
 - Markdown
+- GitHub actions
 
 ---
 

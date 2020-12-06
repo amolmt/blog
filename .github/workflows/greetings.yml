@@ -10,4 +10,4 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: 'Thanks for reporting the issue.'
-        pr-message: 'Thanks for raising a pull request.'
+        pr-message: 'Thanks for raising the pull request.'
