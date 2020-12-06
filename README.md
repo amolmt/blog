@@ -1,4 +1,4 @@
-# Repo for Amol's Website
+# Code for my personal website amolt.me
 
 This repo contains the code that is being used [here](https://amolt.me)
 
