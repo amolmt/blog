@@ -10,19 +10,6 @@ function Uses({ og }) {
       <Layout secondaryPage>
         <h1 className="uses-h1">What I use</h1>
 
-        <div className="uses-intro">
-          I often get asked about what's my setup as well as what I use to share
-          all the tips I usually post on{" "}
-          <a
-            href="https://twitter.com/amoltangade"
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            Twitter
-          </a>
-          , so here it is.
-        </div>
-
         {USES.map(({ title, stack }) => (
           <ul className="uses-list" key={title}>
             <li className="head">{title}</li>

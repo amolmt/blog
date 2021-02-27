@@ -59,14 +59,24 @@ function About() {
           <div className="about-intro">
             <Row>
               <Col md={12}>
-                I'm a frontend engineer with 2+ years of experience. I started
-                my career in 2017 as a fullstack developer, later I realized
-                that my interest is more in UI development.
-                <br />
-                <br />
-                In the past couple of years I've worked with a lot of
-                technologies like: PHP, jQuery, Laravel, ReactJS, GraphQL, and
-                many more.
+                I'm a frontend React developer currently focusing on Angular and
+                D3. Follow me on{" "}
+                <a
+                  href="https://twitter.com/amoltangade"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  Twitter
+                </a>{" "}
+                and{" "}
+                <a
+                  href="https://github.com/amolmt"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  GitHub
+                </a>
+                .
               </Col>
             </Row>
             <hr />
@@ -114,16 +124,6 @@ function About() {
                 </Col>
               ))}
             </Row>
-            <hr />
-            Follow me on{" "}
-            <a
-              href="https://twitter.com/amoltangade"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-            >
-              Twitter
-            </a>
-            . That's where I usually hangout.
           </div>
         </div>
       </Layout>
