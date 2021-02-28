@@ -437,9 +437,11 @@ footer {
 
 @media only screen and (max-width: 960px) {
   .writing-row .writing-date {
-    text-align: left;
+    text-align: center;
     padding: 10px 0;
   }
+
+  /* @media only screen and () */
 
   .uses-list li:not(.head) span {
     display: block;
