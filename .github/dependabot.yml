@@ -1,0 +1,47 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: next-transpile-modules
+    versions:
+    - 6.1.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.4.1
+  - dependency-name: simple-icons
+    versions:
+    - 4.10.0
+    - 4.11.0
+    - 4.12.0
+    - 4.13.0
+    - 4.14.0
+    - 4.15.0
+    - 4.16.0
+    - 4.17.0
+    - 4.18.0
+    - 4.19.0
+    - 4.20.0
+    - 4.8.0
+    - 4.9.0
+  - dependency-name: next
+    versions:
+    - 10.0.5
+    - 10.0.6
+    - 10.0.7
+    - 10.0.8
+    - 10.0.9
+    - 10.1.1
+    - 10.1.2
+    - 10.1.3
+  - dependency-name: react-text-transition
+    versions:
+    - 1.1.4
+    - 1.2.1
+  - dependency-name: react-particles-js
+    versions:
+    - 3.4.1
